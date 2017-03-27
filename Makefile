@@ -153,13 +153,11 @@ all-test:
 	    echo "      ***"; \
 	    exit 1; \
 	fi
-	@if find /usr/lib*/python*/site-*/_gamin.so -quit 2>/dev/null; then \
+	@if find /usr/lib*/python*/*-*/_gamin.*so -quit 2>/dev/null; then \
 	    exit 0; \
-	elif find /usr/lib*/python*/dist-*/_gamin.*so -quit 2>/dev/null; then \
+	elif find /usr/lib/py*/python*/_gamin.*so -quit 2>/dev/null; then \
 	    exit 0; \
-	elif find /usr/lib/py*/python*/_gamin.so -quit 2>/dev/null; then \
-	    exit 0; \
-	elif find /usr/lib/python-*/*/*/_gamin.so -quit 2>/dev/null; then \
+	elif find /usr/lib/python-*/*/*/_gamin.*so -quit 2>/dev/null; then \
 	    exit 0; \
 	else \
 	    echo "      ***"; \
