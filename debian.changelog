@@ -1,3 +1,9 @@
+gnome-manual-duplex (0.67) stable; urgency=low
+
+  * gnome-manual-duplex.glade: Change even page default to "OK"
+
+ -- Rick Richardson <rickrich@gmail.com>  Mon, 04 Sep 2016 08:21:03 -0500
+
 gnome-manual-duplex (0.66) stable; urgency=low
 
   * Makefile: Ubuntu 16.04: another place where _gamin.so is in.
