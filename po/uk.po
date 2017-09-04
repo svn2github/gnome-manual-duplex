@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-manual-duplex 0.44\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 03:18-0500\n"
+"POT-Creation-Date: 2017-09-04 12:55-0500\n"
 "PO-Revision-Date: 2012-04-10 06:56+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
@@ -88,7 +88,7 @@ msgstr "Домашня сторінка"
 msgid "GPL"
 msgstr "GPL"
 
-#: gnome-manual-duplex.glade:109
+#: gnome-manual-duplex.glade:111
 msgid ""
 "<big><b>1.</b></big>\n"
 "\n"
@@ -104,7 +104,7 @@ msgstr ""
 "сторінок. Не вилучайте порожні\n"
 "аркуші."
 
-#: gnome-manual-duplex.glade:129
+#: gnome-manual-duplex.glade:131
 msgid ""
 "<big><b>2.</b></big>\n"
 "\n"
@@ -118,15 +118,15 @@ msgstr ""
 "вставте його до лотка 1\n"
 "надрукованим боком вниз."
 
-#: gnome-manual-duplex.glade:183
+#: gnome-manual-duplex.glade:185
 msgid "<b>Printer</b>"
 msgstr "<b>Принтер</b>"
 
-#: gnome-manual-duplex.glade:214 gnome-manual-duplex.glade:291
+#: gnome-manual-duplex.glade:216 gnome-manual-duplex.glade:293
 msgid "Reverse Pages"
 msgstr "Зворотний порядок сторінок"
 
-#: gnome-manual-duplex.glade:218 gnome-manual-duplex.glade:295
+#: gnome-manual-duplex.glade:220 gnome-manual-duplex.glade:297
 msgid ""
 "HP LJ 1005/1018/1020: reverse pages\n"
 "HP LJ P1005/P1006/P1505: reverse pages\n"
@@ -142,11 +142,11 @@ msgstr ""
 "Minolta/QMS 2300 DL: зворотний порядок сторінок\n"
 "Інші: можливо"
 
-#: gnome-manual-duplex.glade:234 gnome-manual-duplex.glade:311
+#: gnome-manual-duplex.glade:236 gnome-manual-duplex.glade:313
 msgid "Invert (rotate 180 degrees) Pages"
 msgstr "Перевертання (поворот на 180°) сторінок"
 
-#: gnome-manual-duplex.glade:238
+#: gnome-manual-duplex.glade:240
 msgid ""
 "HP LJ 1005/1018/1020: invert pages\n"
 "HP LJ P1005/P1006/P1505: invert pages\n"
@@ -162,11 +162,11 @@ msgstr ""
 "Minolta/QMS 2300 DL: перевертання сторінок\n"
 "Інші: можливо"
 
-#: gnome-manual-duplex.glade:260
+#: gnome-manual-duplex.glade:262
 msgid "<b>Even Long Edge</b>"
 msgstr "<b>Парні з довшого краю</b>"
 
-#: gnome-manual-duplex.glade:315
+#: gnome-manual-duplex.glade:317
 msgid ""
 "HP LJ 1005/1018/1020: no invert pages\n"
 "HP LJ P1005/P1006: no invert pages\n"
@@ -182,39 +182,39 @@ msgstr ""
 "Minolta/QMS 2300 DL: без перевертання сторінок\n"
 "Інші: можливо"
 
-#: gnome-manual-duplex.glade:337
+#: gnome-manual-duplex.glade:339
 msgid "<b>Even Short Edge</b>"
 msgstr "<b>Парні з коротшого краю</b>"
 
-#: gnome-manual-duplex.glade:454
+#: gnome-manual-duplex.glade:456
 msgid "<b>Job Name</b>"
 msgstr "<b>Назва завдання</b>"
 
-#: gnome-manual-duplex.glade:487
+#: gnome-manual-duplex.glade:489
 msgid "Manual Long Edge"
 msgstr "Вручну з довшого краю"
 
-#: gnome-manual-duplex.glade:498
+#: gnome-manual-duplex.glade:500
 msgid "Manual Short Edge"
 msgstr "Вручну з коротшого краю"
 
-#: gnome-manual-duplex.glade:514
+#: gnome-manual-duplex.glade:516
 msgid "Manual Brochure"
 msgstr "Вручну брошура"
 
-#: gnome-manual-duplex.glade:573
+#: gnome-manual-duplex.glade:575
 msgid "<b>Output Format</b>"
 msgstr "<b>Формат виводу</b>"
 
-#: gnome-manual-duplex.glade:600
+#: gnome-manual-duplex.glade:602
 msgid "Skip Odd Pages"
 msgstr "Пропустити непарні сторінки"
 
-#: gnome-manual-duplex.glade:614
+#: gnome-manual-duplex.glade:616
 msgid "<b>Print</b>"
 msgstr "<b>Друк</b>"
 
-#: gnome-manual-duplex.glade:644
+#: gnome-manual-duplex.glade:646
 msgid ""
 "Default (Use Locale)\n"
 "A3\n"
@@ -242,6 +242,6 @@ msgstr ""
 "Folio\n"
 "Quarto"
 
-#: gnome-manual-duplex.glade:665
+#: gnome-manual-duplex.glade:667
 msgid "<b>Page Size</b>"
 msgstr "<b>Розмір сторінки</b>"

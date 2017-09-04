@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-manual-duplex 0.38\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 03:18-0500\n"
+"POT-Creation-Date: 2017-09-04 12:55-0500\n"
 "PO-Revision-Date: 2011-12-19 21:40+0800\n"
 "Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -84,7 +84,7 @@ msgstr "主页"
 msgid "GPL"
 msgstr "GPL"
 
-#: gnome-manual-duplex.glade:109
+#: gnome-manual-duplex.glade:111
 msgid ""
 "<big><b>1.</b></big>\n"
 "\n"
@@ -98,7 +98,7 @@ msgstr ""
 "不改变方向，将纸张从出纸槽取出。\n"
 "不要抽掉里面的空白页。"
 
-#: gnome-manual-duplex.glade:129
+#: gnome-manual-duplex.glade:131
 msgid ""
 "<big><b>2.</b></big>\n"
 "\n"
@@ -111,15 +111,15 @@ msgstr ""
 "保持这个方向，将纸张放入纸盘 1。\n"
 "已打印的一面朝下。"
 
-#: gnome-manual-duplex.glade:183
+#: gnome-manual-duplex.glade:185
 msgid "<b>Printer</b>"
 msgstr "<b>打印机</b>"
 
-#: gnome-manual-duplex.glade:214 gnome-manual-duplex.glade:291
+#: gnome-manual-duplex.glade:216 gnome-manual-duplex.glade:293
 msgid "Reverse Pages"
 msgstr ""
 
-#: gnome-manual-duplex.glade:218 gnome-manual-duplex.glade:295
+#: gnome-manual-duplex.glade:220 gnome-manual-duplex.glade:297
 msgid ""
 "HP LJ 1005/1018/1020: reverse pages\n"
 "HP LJ P1005/P1006/P1505: reverse pages\n"
@@ -129,11 +129,11 @@ msgid ""
 "Others: depends"
 msgstr ""
 
-#: gnome-manual-duplex.glade:234 gnome-manual-duplex.glade:311
+#: gnome-manual-duplex.glade:236 gnome-manual-duplex.glade:313
 msgid "Invert (rotate 180 degrees) Pages"
 msgstr "反转页面(旋转 180 度)"
 
-#: gnome-manual-duplex.glade:238
+#: gnome-manual-duplex.glade:240
 msgid ""
 "HP LJ 1005/1018/1020: invert pages\n"
 "HP LJ P1005/P1006/P1505: invert pages\n"
@@ -143,11 +143,11 @@ msgid ""
 "Others: depends"
 msgstr ""
 
-#: gnome-manual-duplex.glade:260
+#: gnome-manual-duplex.glade:262
 msgid "<b>Even Long Edge</b>"
 msgstr "<b>即使长边</b>"
 
-#: gnome-manual-duplex.glade:315
+#: gnome-manual-duplex.glade:317
 msgid ""
 "HP LJ 1005/1018/1020: no invert pages\n"
 "HP LJ P1005/P1006: no invert pages\n"
@@ -157,39 +157,39 @@ msgid ""
 "Others: depends"
 msgstr ""
 
-#: gnome-manual-duplex.glade:337
+#: gnome-manual-duplex.glade:339
 msgid "<b>Even Short Edge</b>"
 msgstr "<b>即使短边</b>"
 
-#: gnome-manual-duplex.glade:454
+#: gnome-manual-duplex.glade:456
 msgid "<b>Job Name</b>"
 msgstr "<b>任务名</b>"
 
-#: gnome-manual-duplex.glade:487
+#: gnome-manual-duplex.glade:489
 msgid "Manual Long Edge"
 msgstr "手册长边"
 
-#: gnome-manual-duplex.glade:498
+#: gnome-manual-duplex.glade:500
 msgid "Manual Short Edge"
 msgstr "手册短边"
 
-#: gnome-manual-duplex.glade:514
+#: gnome-manual-duplex.glade:516
 msgid "Manual Brochure"
 msgstr "手册小册"
 
-#: gnome-manual-duplex.glade:573
+#: gnome-manual-duplex.glade:575
 msgid "<b>Output Format</b>"
 msgstr "<b>输出格式</b>"
 
-#: gnome-manual-duplex.glade:600
+#: gnome-manual-duplex.glade:602
 msgid "Skip Odd Pages"
 msgstr "跳过奇数页"
 
-#: gnome-manual-duplex.glade:614
+#: gnome-manual-duplex.glade:616
 msgid "<b>Print</b>"
 msgstr "<b>打印</b>"
 
-#: gnome-manual-duplex.glade:644
+#: gnome-manual-duplex.glade:646
 msgid ""
 "Default (Use Locale)\n"
 "A3\n"
@@ -217,6 +217,6 @@ msgstr ""
 "Folio\n"
 "Quarto"
 
-#: gnome-manual-duplex.glade:665
+#: gnome-manual-duplex.glade:667
 msgid "<b>Page Size</b>"
 msgstr "<b>页面大小</b>"
