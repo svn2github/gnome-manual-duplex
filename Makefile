@@ -1,6 +1,6 @@
 
 PROG=gnome-manual-duplex
-VERSION=0.67
+VERSION=0.68
 
 INSTALL=install
 LPADMIN=/usr/sbin/lpadmin
@@ -328,4 +328,4 @@ w:	all
 
 web:
 	put-rkkda rkkda/tmp gnome-manual-duplex.tar.gz 
-	scp index.php rickrich,g-manual-duplex@web.sourceforge.net:htdocs
+	#scp index.php rickrich,g-manual-duplex@web.sourceforge.net:htdocs
