@@ -63,4 +63,4 @@ Subversion Access:
     svn co \
 	--username=USERNAME \
 	https://svn.code.sf.net/p/g-manual-duplex/code/ \
-	gnome-manual-duplex-code
+	gnome-manual-duplex
