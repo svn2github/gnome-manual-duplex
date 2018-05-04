@@ -57,3 +57,11 @@ put-rkkda  foo2zjs/tmp gnome-manual-duplex.tar.gz
 mutt -s  "gnome-manual-duplex 0.63 pot file" coordinator@translationproject.org -a messages.pot </dev/null
 
 https://wiki.ubuntu.com/DesktopExperienceTeam/ApplicationIndicators#Python_version
+
+Fedora 28:
+$ gnome-manual-duplex 
+Traceback (most recent call last):
+  File "/usr/bin/gnome-manual-duplex", line 23, in <module>
+    import pygtk
+ImportError: No module named pygtk
+$ root dnf install pygtk2 python2-cups
