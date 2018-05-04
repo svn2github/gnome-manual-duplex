@@ -64,4 +64,4 @@ Traceback (most recent call last):
   File "/usr/bin/gnome-manual-duplex", line 23, in <module>
     import pygtk
 ImportError: No module named pygtk
-$ root dnf install pygtk2 python2-cups
+$ root dnf install pygtk2 python2-cups python-gobject

@@ -5,6 +5,10 @@ Requires:
 	# dnf install file	-OR-	$ sudo apt-get install file
     gamin-python / python-gamin
 	# dnf install gamin-python -OR-	$ sudo apt-get install python-gamin
+    pygtk2
+    python2-cups
+    python-gobject
+	# dnf install pygtk2 python2-cups python-gobject
 
 Download and unpack:
     https://sourceforge.net/projects/g-manual-duplex/files/
