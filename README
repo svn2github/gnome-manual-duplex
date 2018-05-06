@@ -41,6 +41,10 @@ Then:
 		$ gmd-autostart-3
 		[logout][login]
 
+    If you are using Gnome 3 Shell (instead of, say, Cinnamon), you probably
+    want https://extensions.gnome.org/extension/495/topicons/ so you can
+    click on it in top panel.
+
     Works with *.ps and *.pdf files.
     Works with Gnome-2 or Gnome-3.
 
