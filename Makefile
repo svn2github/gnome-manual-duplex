@@ -111,7 +111,7 @@ FILES=\
 #
 all: all-test $(PROG) $(PROG).xml $(PROG).spec $(PROG).dsc messages \
 	brochure.xpm long_edge.xpm short_edge.xpm \
-	gmd-applet.py gmd-applet-3.py
+	gmd-applet.py gmd-applet-3.py README.txt
 
 all-test:
 	#
@@ -174,6 +174,10 @@ gmd-applet.py: Makefile gmd-applet.py.in
 gmd-applet-3.py: Makefile gmd-applet-3.py.in
 
 $(PROG).xml: Makefile
+
+# sourceforge wants this
+README.txt: README
+	ln -s README README.txt
 
 #
 #	Packaging
@@ -306,6 +310,7 @@ clean:
 	rm -f messages.pot*
 	rm -rf locale
 	rm -rf PKGBUILD
+	rm -rf README.txt
 
 tar:	tarver PKGBUILD
 	HERE=`basename $$PWD`; \
