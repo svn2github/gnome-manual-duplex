@@ -6,7 +6,7 @@ Requires:
     gamin-python / python-gamin
 	# dnf install gamin-python -OR-	$ sudo apt-get install python-gamin
     pygtk2
-    python2-cups
+    python-cups OR python2-cups
     python-gobject
 	# dnf install pygtk2 python2-cups python-gobject
 
