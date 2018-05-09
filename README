@@ -1,8 +1,8 @@
 Requires:
     psutils
     file
-    gamin-python OR python-gamin
-    pygtk2
+    gamin-python OR python-gamin OR gamin
+    pygtk OR pygtk2
     python-cups OR python2-cups
     python-gobject
 
@@ -18,6 +18,10 @@ Requires:
 	$ sudo apt-get install psutils file
 	$ sudo apt-get install python-gamin python-gtk2 python-cups
 	$ sudo apt-get install python-gobject
+
+    Arch Linux:
+	$ sudo pacman -S psutils file
+	$ sudo pacman -S gamin pygtk python2-pycups python-gobject
 
 Download and unpack:
     https://sourceforge.net/projects/g-manual-duplex/files/
