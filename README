@@ -19,7 +19,7 @@ Requires:
 	$ sudo apt-get install python-gamin python-gtk2 python-cups
 	$ sudo apt-get install python-gobject
 
-    Arch Linux:
+    Arch Linux (Antergos 18.4):
 	$ sudo pacman -S psutils file
 	$ sudo pacman -S gamin pygtk python2-pycups python-gobject
 
