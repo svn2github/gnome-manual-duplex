@@ -1,14 +1,23 @@
 Requires:
     psutils
-	# dnf install psutils	-OR-	$ sudo apt-get install psutils
     file
-	# dnf install file	-OR-	$ sudo apt-get install file
-    gamin-python / python-gamin
-	# dnf install gamin-python -OR-	$ sudo apt-get install python-gamin
+    gamin-python OR python-gamin
     pygtk2
     python-cups OR python2-cups
     python-gobject
-	# dnf install pygtk2 python2-cups python-gobject
+
+    Fedora 28:
+	$ sudo dnf install psutils file
+	$ sudo dnf install python-gamin pygtk2 python2-cups python-gobject
+
+    SUSE Leap 42.3:
+	$ sudo zypper install psutils file
+	$ sudo zypper install python-gamin python-gtk python-cups python-gobject
+
+    Ubuntu 18.04:
+	$ sudo apt-get install psutils file
+	$ sudo apt-get install python-gamin python-gtk2 python-cups
+	$ sudo apt-get install python-gobject
 
 Download and unpack:
     https://sourceforge.net/projects/g-manual-duplex/files/
