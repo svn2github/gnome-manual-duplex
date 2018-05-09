@@ -3,7 +3,7 @@ Requires:
     file
     gamin-python OR python-gamin OR gamin
     pygtk OR pygtk2
-    python-cups OR python2-cups
+    python-cups OR python2-cups OR python2-pycups
     python-gobject
 
     Fedora 28:
