@@ -1,6 +1,13 @@
 Name:           gnome-manual-duplex
 # List of additional build dependencies
+#
+# https://en.opensuse.org/openSUSE:Build_Service_cross_distribution_howto
+#
+%if 0%{?suse_version}
+BuildRequires: gtk2-devel cups netpbm transfig gettext gamin-python
+%else
 BuildRequires: gtk2-devel cups netpbm-progs transfig gettext gamin-python
+%endif
 Requires:	psutils file gamin-python pygtk2 python2-cups python-gobject
 Version:        ${VERSION}
 Release:        1
