@@ -4,6 +4,7 @@ Name:           gnome-manual-duplex
 # https://en.opensuse.org/openSUSE:Build_Service_cross_distribution_howto
 #
 %if 0%{?suse_version}
+BuildRequires: update-desktop-files
 BuildRequires: gtk2-devel cups netpbm transfig gettext gamin-python
 %else
 BuildRequires: gtk2-devel cups netpbm-progs transfig gettext gamin-python
@@ -47,6 +48,15 @@ make DESTDIR=$RPM_BUILD_ROOT install
 %files
 /usr/bin/gmd-autostart-3
 /usr/bin/gnome-manual-duplex
+%if 0%{?suse_version}
+%dir /usr/lib/bonobo
+%dir /usr/lib/bonobo/servers
+%dir /usr/share/gnome-manual-duplex
+%dir /usr/share/doc/gnome-manual-duplex
+%dir /usr/share/gnome-panel
+%dir /usr/share/gnome-panel/4.0
+%dir /usr/share/gnome-panel/4.0/applets
+%endif
 /usr/lib/bonobo/servers/gmd.server
 /usr/lib/cups/backend/gmd
 /usr/share/applications/gnome-manual-duplex.desktop

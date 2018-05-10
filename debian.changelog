@@ -1,3 +1,9 @@
+gnome-manual-duplex (0.69) stable; urgency=low
+
+  * *.spec.in, *.desktop: Changes to include openSUSE
+
+ -- Rick Richardson <rickrich@gmail.com>  Fri, 04 May 2018 08:21:03 -0500
+
 gnome-manual-duplex (0.68) stable; urgency=low
 
   * gnome-manual-duplex.glade: Change *.spec and debian.control files
