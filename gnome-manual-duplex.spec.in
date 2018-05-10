@@ -45,6 +45,10 @@ make
 
 make DESTDIR=$RPM_BUILD_ROOT install
 
+%if 0%{?suse_version}
+%suse_update_desktop_file -i gnome-manual-duplex Utility
+%endif
+
 %files
 /usr/bin/gmd-autostart-3
 /usr/bin/gnome-manual-duplex
